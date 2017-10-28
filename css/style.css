@@ -64,12 +64,12 @@ abbr,acronym { border: 0;
 
 #footer p {
     font-family: Arial;
-    font-size: 10px;
-    color: darkgrey;
+    font-size: 1em;
+    color: white;
 }
 
 img {
-    height: 300px;
+    width: 60%;
 }
 
 /* Custom CSS
@@ -80,12 +80,12 @@ body{
     width: 100%;
 }
 h1{
-    font-size: 6em;
+    font-size: 3em;
     color: black;
     font-family: 'title';
 }
 p{
-    font-size: 2em;
+    font-size: 1em;
     color: black;
     font-family: 'content';
 }
@@ -96,41 +96,132 @@ p{
     text-align: center;
 }
 
-/* Section 1
- * --------------------------------------- */
-#section0{
-    /*background-color: #BFDA00;*/
+
+@-webkit-keyframes rotation{
+    from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(360deg);}
 }
-#section0 h1{
-    /*color: #444;*/
+
+.Rotation{
+    -webkit-transform: rotate(360deg);
+    animation: rotation 10s linear infinite;
+    -moz-animation: rotation 10s linear infinite;
+    -webkit-animation: rotation 10s linear infinite;
+    -o-animation: rotation 10s linear infinite;
 }
-#section0 p{
-    /*color: #333;*/
-    /*opacity: 0.4;*/
+
+#start-btn {
+    position:absolute;
+    width:100%;
+    text-align: center;
+    font-size: 25px;
+    z-index: 2;
+    top:40%;
+}
+/*.cloud {*/
+    /*transform: 100px 100px;*/
+/*}*/
+@-webkit-keyframes transform{
+    from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(360deg);}
+}
+.transition-cloud {
+    -moz-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+
 }
 
 
-/* Section 2
- * --------------------------------------- */
-#section1{
-    /*background-color: #2EBE21;*/
+.flip-horizontal {
+     -moz-transform: scaleX(-1);
+     -webkit-transform: scaleX(-1);
+     -o-transform: scaleX(-1);
+     transform: scaleX(-1);
 }
-#section1 h1{
-    /*color: #fff;*/
-}
-#section1 p{
-    /*opacity: 0.8;*/
+
+#start {
+    /*background-color: rgb(197, 8, 25);*/
 }
 
 
-/* Section 3
- * --------------------------------------- */
-#section2{
-    /*background-color: #2C3E50;*/
+
+/*@media(max-width: 1060px) {*/
+    /*#primary { width:67%; }*/
+    /*#secondary { width:30%; margin-left:3%;}*/
+/*}*/
+
+/*@media(max-width: 768px) {*/
+    /*#primary { width:100%; }*/
+    /*#secondary { width:100%; margin:0; border:none; }*/
+/*}*/
+
+/*@media(max-width: px) {*/
+    /*#primary { width:100%; }*/
+    /*#secondary { width:100%; margin:0; border:none; }*/
+/*}*/
+
+@media (min-width: 768px){
+    #up-img {
+        display: block;
+    }
+    #down-img {
+        display: block;
+    }
+    h1{
+        font-size: 6em;
+    }
+    p{
+        font-size: 3em;
+    }
+    img {
+        width: 60%;
+    }
+    #footer p {
+        font-size: 30px;
+        color: white;
+    }
 }
-#section2 h1{
-    /*color: #F2F2F2;*/
+@media (min-width: 992px){
+    #up-img {
+        display: none;
+    }
+    #down-img {
+        display: none;
+    }
+    h1{
+        font-size: 6em;
+    }
+    p{
+        font-size: 2em;
+    }
+    img {
+        width: 25%;
+    }
+    #footer p {
+        font-size: 1em;
+        color: grey;
+    }
 }
-#section2 p{
-    /*opacity: 0.6;*/
+@media (min-width: 1200px){
+    #up-img {
+        display: none;
+    }
+    #down-img {
+        display: none;
+    }
+    h1{
+        font-size: 3em;
+    }
+    p{
+        font-size: 2em;
+    }
+    img {
+        width: 25%;
+    }
+    #footer p {
+        font-size: 1em;
+        color: grey;
+    }
 }

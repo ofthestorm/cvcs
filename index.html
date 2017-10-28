@@ -3,105 +3,199 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="x5-orientation" content="portrait">
 	<title>社会主义核心价值观</title>
 
 	<link rel="stylesheet" type="text/css" href="css/javascript.fullPage.css" />
 	<link rel="stylesheet" type="text/css" href="css/animate.css" />
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
-	<script src="js/script.js"></script>
-
+	<script src="js/jquery.fullPage.js"></script>
 </head>
 <body>
 
 
+
+<img src="img/up.png" id="up-img" style="width: 100%; position: fixed; top:0;">
+
 <div id="fullpage">
-	<div class="section " id="section0">
+	<div  class="section" id="start">
+		<div class="content" style="position:relative;  ">
+			<div id="cloud-img1">
+				<img class="transition-cloud cloud" style="width: 20%" src="img/cloud2.png">
+			</div>
+			<br/><br/><br/>
+			<div id="start-img">
+				<img class="Rotation" src="img/start.png">
+			</div>
+			<div id="start-btn" >
+				<h1 style =" color: white">开始</h1>
+			</div>
+			<br/><br/><br/>
+			<div id="cloud-img2">
+				<img class="transition-cloud flip-horizontal" style="width: 20%" src="img/cloud2.png">
+			</div>
+		</div>
+
+	</div>
+
+	<div class="section" id="section1">
 		<div class="content">
 			<div id="img1">
-				<img src="img/wenming.png">
+				<img src="img/fuqiang.png">
 			</div>
 			<div id="text1">
-				<!--<h1>文明</h1>-->
+				<br/>
+				<p>地灵人杰域无疆，自古中华盼富强。</p>
+				<p>南北青山连沃野，东西绿水润肥壤。</p>
+				<p>秦皇汉武千年梦，宋祖唐宗一柱香。</p>
+				<p>待到雄狮重奋起，看他谁敢动刀枪！</p>
+
+			</div>
+		</div>
+	</div>
+	<div class="section" id="section2">
+			<div class="content">
+				<div id="img2">
+					<img src="img/minzhu.png">
+
+				</div>
+				<div id="text2">
+					<br/>
+					<p>中华自古怕皇权，百姓从来不选边。</p>
+					<p>虽有成王曾立国，却无败寇敢违天。</p>
+					<p>一家难把江山守，万众能将社稷传。</p>
+					<p>我劝今人重筑梦，休教民主化灰烟。</p>
+
+				</div>
+			</div>
+	</div>
+	<div class="section" id="section3">
+		<div class="content">
+			<div id="img3">
+				<img src="img/wenming.png">
+
+			</div>
+			<div id="text3">
 				<br/>
 				<p>一代新风美景呈，城乡到处见文明。</p>
 				<p>	言谈和气温柔好，工作辛勤踏实行。</p>
 				<p>	秩序井然常顺遂，阳光心态总安宁。</p>
 				<p>	诗书养育公民德，万户千家享太平。</p>
-			</div>
-		</div>
-	</div>
-	<div class="section" id="section1">
-			<div class="content">
-				<div id="img2">
-					<img src="img/hexie.png">
 
-				</div>
-				<div id="text2">
-					<!--<h1 >和谐</h1>-->
-					<br/>
-					<p>民安国泰赖和平，结友交朋带笑迎。</p>
-					<p>	左舍右邻相敬爱，前呼后拥莫光荣。</p>
-					<p>	乐施好善人钦重，近利贪功自贱轻。</p>
-					<p>	万紫千红春色美，一枝独秀寡谐声。</p>
-				</div>
-			</div>
-	</div>
-	<div class="section" id="section2">
-		<div class="content">
-			<div id="img3">
-				<img src="img/pingdeng.png">
-
-			</div>
-			<div id="text3">
-				<!--<h1>平等</h1>-->
-				<br/>
-				<p>陋习陈规近腐迂，三从四德太蛮愚。</p>
-				<p>	横行霸道千斤鼎，压制专权六月炉。</p>
-				<p>	火热水深多痛苦，风凶浪涌少欢娱。</p>
-				<p>	如今老幼皆平等，绘出人间好画图。</p>
-			</div>
-		</div>
-	</div>
-	<div class="section" id="section3">
-		<div class="content">
-			<div id="img4">
-				<img src="img/aiguo.png">
-
-			</div>
-			<div id="text4">
-				<!--<h1>爱国</h1>-->
-				<br/>
-				<p>爱国从来世界崇，岳飞苏武是英雄。</p>
-				<p>	山河破碎亲朋散，民族危亡事业空。</p>
-				<p>	盗贼欺凌同敌忾，中华圆梦尽身躬。</p>
-				<p>	和平共处新风尚，互惠双赢福乐融。</p>
 			</div>
 		</div>
 	</div>
 	<div class="section" id="section4">
 		<div class="content">
-			<div id="img5">
-				<img src="img/jingye.png">
+			<div id="img4">
+				<img src="img/hexie.png">
 
 			</div>
-			<div id="text5">
-				<!--<h1>敬业</h1>-->
+			<div id="text4">
 				<br/>
-				<p>百丈高楼平地起，根基稳固赞工人。</p>
-				<p>	安全美食千家乐，保健良医万户春。</p>
-				<p>	敬业赢来财气旺，爱岗博得誉名臻。</p>
-				<p>	鞠躬尽瘁求精品，福禄盈门不苦辛。</p>
+				<p>民安国泰赖和平，结友交朋带笑迎。</p>
+				<p>	左舍右邻相敬爱，前呼后拥莫光荣。</p>
+				<p>	乐施好善人钦重，近利贪功自贱轻。</p>
+				<p>	万紫千红春色美，一枝独秀寡谐声。</p>
+
 			</div>
 		</div>
 	</div>
 	<div class="section" id="section5">
 		<div class="content">
-			<div id="img6">
-				<img src="img/chengxin.png">
+			<div id="img5">
+				<img src="img/ziyou.png">
+			</div>
+			<div id="text5">
+				<br/>
+				<p>一梦重圆解百愁，广开言路写春秋。</p>
+				<p>山高不拒争鸣鸟，水阔能容竞渡舟。</p>
+				<p>止谤何须封口费，除霾只管溯源头。</p>
+				<p>蓬莱路上无关卡，过海神仙得自由。</p>
 
 			</div>
+		</div>
+	</div>
+	<div class="section" id="section6">
+		<div class="content">
+			<div id="img6">
+				<img src="img/pingdeng.png">
+			</div>
 			<div id="text6">
-				<!--<h1>诚信</h1>-->
+				<br/>
+				<p>陋习陈规近腐迂，三从四德太蛮愚。</p>
+				<p>	横行霸道千斤鼎，压制专权六月炉。</p>
+				<p>	火热水深多痛苦，风凶浪涌少欢娱。</p>
+				<p>	如今老幼皆平等，绘出人间好画图。</p>
+
+			</div>
+		</div>
+	</div>
+	<div class="section" id="section7">
+		<div class="content">
+			<div id="img7">
+				<img src="img/gongzheng.png">
+			</div>
+			<div id="text7">
+				<br/>
+				<p>王权在握莫轻弹，玉带还须配铁冠。</p>
+				<p>激浊全凭三尺剑，扬清更赖七星坛。</p>
+				<p>公平买取江山稳，正直修来社稷安。</p>
+				<p>百姓心中多绮梦，南衙从此地天宽。</p>
+
+			</div>
+		</div>
+	</div>
+	<div class="section" id="section8">
+		<div class="content">
+			<div id="img8">
+				<img src="img/fazhi.png">
+			</div>
+			<div id="text8">
+				<br/>
+				<p>君临天下自称孤，欲把山河信手涂。</p>
+				<p>治世全凭香一柱，当朝只靠酒三壶。</p>
+				<p>循情未必真豪杰，枉法如何大丈夫。</p>
+				<p>收拾乾坤须用典，休教霾雾满皇都。</p>
+			</div>
+		</div>
+	</div>
+	<div class="section" id="section9">
+		<div class="content">
+			<div id="img9">
+				<img src="img/aiguo.png">
+			</div>
+			<div id="text9">
+				<br/>
+				<p>爱国从来世界崇，岳飞苏武是英雄。</p>
+				<p>	山河破碎亲朋散，民族危亡事业空。</p>
+				<p>	盗贼欺凌同敌忾，中华圆梦尽身躬。</p>
+				<p>	和平共处新风尚，互惠双赢福乐融。</p>
+
+			</div>
+		</div>
+	</div>
+	<div class="section" id="section10">
+		<div class="content">
+			<div id="img10">
+				<img src="img/jingye.png">
+			</div>
+			<div id="text10">
+				<br/>
+				<p>百丈高楼平地起，根基稳固赞工人。</p>
+				<p>	安全美食千家乐，保健良医万户春。</p>
+				<p>	敬业赢来财气旺，爱岗博得誉名臻。</p>
+				<p>	鞠躬尽瘁求精品，福禄盈门不苦辛。</p>
+
+			</div>
+		</div>
+	</div>
+	<div class="section" id="section11">
+		<div class="content">
+			<div id="img11">
+				<img src="img/chengxin.png">
+			</div>
+			<div id="text11">
 				<br/>
 				<p>为人守信好名声，戚友宾朋带笑迎。</p>
 				<p>	工作认真知本分，交流恳切懂真诚。</p>
@@ -110,13 +204,31 @@
 			</div>
 		</div>
 	</div>
+	<div class="section" id="section12">
+		<div class="content">
+			<div id="img12">
+				<img src="img/youshan.png">
+			</div>
+			<div id="text12">
+				<br/>
+				<p>中原麟凤爱和平，四海同心作弟兄。</p>
+				<p>玄奘西行修佛道，鉴真东渡送光明。</p>
+				<p>刘邦马后多良士，项羽鞍前少劲兵。</p>
+				<p>友善勾消天下怨，丝绸路上自安宁。</p>
+			</div>
+		</div>
+	</div>
 </div>
 
+<img src="img/down.png" id="down-img" style="width: 100%;position: fixed; bottom:0;">
 <div id="footer">
-	<p>Copyright © 2017 Tongji<p/>
+	<p style="color: white">Copyright © 2017 Tongji<p/>
 </div>
+
+<audio id="music" src="music/guojia.mp3" autoplay loop>
 
 <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+<script type="text/javascript" src="js/jquery.fullPage.js"></script>
 <script type="text/javascript" src="js/javascript.fullPage.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 

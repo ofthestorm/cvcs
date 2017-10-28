@@ -11,6 +11,8 @@
  *
  * Date: 2017-03-20T18:59Z
  */
+
+console.log("jq");
 ( function( global, factory ) {
 
 	"use strict";
